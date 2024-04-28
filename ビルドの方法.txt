@@ -187,3 +187,10 @@ https://username.github.io/repository-name/
 このようにして、GitHubを使ってビルドされたReactアプリケーションを公開することができます。
 
 
+==================================================================
+解消方法：
+build/index.htmlの
+href="/static/・・・・
+を
+href="./static/・・・・
+に書き換えた。
